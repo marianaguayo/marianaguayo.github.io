@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marian Guadalupe Aguayo's Information Systems and international business portfolio.">
+  <title>Sol y Sistema | Marian Guadalupe Aguayo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Sol y Sistema, back to top">
+      <span class="logo-mark"><img src="assets/mga-sunburst-mark.png" alt="" aria-hidden="true"></span>
+      <span><strong>Sol y Sistema</strong><small>Marian G. Aguayo</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#systems">Systems</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#about">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span>IS</span> Information Systems · International Business</p>
+        <h1 id="hero-title">I turn data into<br><em>direction.</em></h1>
+        <p class="intro">I’m <strong>Marian Guadalupe Aguayo</strong>, a first-generation Information Systems major and International Business minor at Houston Christian University, building experience in technical support, cybersecurity, programming, and data analysis.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Read the cards <span>↓</span></a>
+          <a class="text-link" href="#systems">View my system <span>→</span></a>
+        </div>
+        <div class="coordinates" aria-label="Based in Texas, thinking globally"><span>29.7604° N</span><i></i><span>95.3698° W</span><b>Based in Texas · Thinking globally</b></div>
+      </div>
+
+      <div class="hero-card-wrap reveal" aria-label="The Systems Architect decorative tarot card">
+        <div class="celestial-orbit"><i></i><i></i><i></i></div>
+        <article class="tarot-card hero-tarot">
+          <div class="card-frame">
+            <p class="roman">XXI</p>
+            <div class="brand-emblem"><img src="assets/mga-celestial-mark.png" alt="Marian Aguayo celestial line emblem"></div>
+            <div class="system-glyph">
+              <span class="node node-a">DATA</span><span class="node node-b">PEOPLE</span><span class="node node-c">PROCESS</span><span class="node node-d">VALUE</span>
+              <svg viewBox="0 0 260 210" aria-hidden="true"><path d="M130 25L48 96M130 25l82 71M48 96l82 86m82-86l-82 86M48 96h164"/><circle cx="130" cy="105" r="28"/></svg>
+              <span class="core">IS</span>
+            </div>
+            <div class="moon-row"><span>☾</span><i>✦</i><span>☽</span></div>
+            <h2>The Systems<br>Architect</h2>
+            <p class="card-motto">Connect · Analyze · Improve</p>
+          </div>
+        </article>
+        <div class="stamp stamp-hero">MGA<br><small>PORTFOLIO</small></div>
+      </div>
+    </section>
+
+    <section class="route-strip" aria-label="Skills and interests">
+      <span>Houston</span><i>◆</i><span>Raspberry Pi</span><i>◆</i><span>Python</span><i>◆</i><span>Cybersecurity</span><i>◆</i><span>Biometrics</span><i>◆</i><span>IT Support</span><i>◆</i><span>Bilingual</span>
+    </section>
+
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <div><p class="kicker">I · PROJECT & EXPERIENCE ARCANA</p><h2 id="work-title">My work in the cards.</h2></div>
+        <p>Projects, experience, and service that show how I approach systems: securely, thoughtfully, and with the end user in mind.</p>
+      </div>
+
+      <div class="filters reveal" role="group" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All cards</button>
+        <button class="filter" data-filter="systems">Systems</button>
+        <button class="filter" data-filter="data">Data</button>
+        <button class="filter" data-filter="leadership">Leadership</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured-project reveal" data-category="systems">
+          <div class="arcana-art attendance-art">
+            <span class="arcana-number">00</span><span class="corner-star">☼</span>
+            <div class="kiosk">
+              <div class="kiosk-camera"></div>
+              <div class="kiosk-screen">
+                <small>DAILY ATTENDANCE</small>
+                <div class="face-scan"><span></span><i></i><b>FACE MATCH</b></div>
+                <div class="pin-dots"><i></i><i></i><i></i><i></i></div>
+                <strong>✓ CLOCKED IN</strong>
+              </div>
+              <div class="pi-board"><i></i><i></i><i></i><span>π</span></div>
+            </div>
+            <p>Identity verified · Attendance recorded</p>
+          </div>
+          <div class="project-info featured-info">
+            <p class="card-label">THE GATEKEEPER · FEATURED PROJECT</p>
+            <h3>Daily Attendance Tracker</h3>
+            <p>A biometric attendance kiosk built on a Raspberry Pi. Students register with facial recognition and a four-digit PIN, then use both factors to clock in. The system records names and timestamps to CSV and emails the completed attendance report to the professor.</p>
+            <div class="project-highlights">
+              <span><b>01</b> Solved Raspberry Pi camera compatibility issues so the attendance kiosk could launch reliably.</span>
+              <span><b>02</b> Improved touchscreen response by handling input on initial touch rather than release.</span>
+              <span><b>03</b> Reduced lag by running facial-recognition analysis on every third video frame.</span>
+            </div>
+            <div class="tags"><span>Raspberry Pi</span><span>Python</span><span>OpenCV</span><span>Face Recognition</span><span>2FA</span><span>CSV + Email</span></div>
+            <p class="project-credit">Team project with Marian, Noelia, and Yovel · Libraries: customtkinter, NumPy, Pillow, OpenCV</p>
+          </div>
+          <div class="project-video">
+            <div class="video-heading"><span>PROJECT FIELD NOTE · VIDEO</span><p>Presentation video available upon request. For the hosted portfolio, I keep the page lightweight while still highlighting the project story and technical workflow.</p></div>
+            <div class="video-placeholder" aria-label="Daily Attendance Tracker presentation video availability note">
+              <strong>Video preview coming soon</strong>
+              <span>A shareable video link or compressed web version can be added here.</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="systems">
+          <div class="arcana-art connector-art">
+            <span class="arcana-number">I</span><span class="corner-star">✦</span>
+            <div class="database"><i></i><i></i><i></i></div>
+            <svg viewBox="0 0 300 250" aria-hidden="true"><path d="M150 45v55M150 100L70 170m80-70 80 70M70 170h160"/><circle cx="150" cy="100" r="12"/><circle cx="70" cy="170" r="12"/><circle cx="230" cy="170" r="12"/></svg>
+            <p>Support that keeps systems moving</p>
+          </div>
+          <div class="project-info">
+            <p class="card-label">THE TROUBLESHOOTER</p><h3>IT Help Desk</h3>
+            <p>Supporting Houston Christian University students, faculty, staff, and events through account, connectivity, software, hardware, network, classroom, and audiovisual troubleshooting.</p>
+            <div class="tags"><span>Aug 2024–Present</span><span>Ticketing</span><span>Tech Support</span></div>
+            <a href="assets/marian-aguayo-resume.png" target="_blank" rel="noopener noreferrer">View experience <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="data">
+          <div class="arcana-art analyst-art">
+            <span class="arcana-number">II</span><span class="corner-star">☾</span>
+            <div class="crystal-chart"><b>72%</b><span>INSIGHT FOUND</span><i style="--h:45%"></i><i style="--h:72%"></i><i style="--h:58%"></i><i style="--h:88%"></i><i style="--h:66%"></i></div>
+            <p>Patterns become decisions</p>
+          </div>
+          <div class="project-info">
+            <p class="card-label">THE ANALYST</p><h3>Data & Decisions</h3>
+            <p>Developing a practical toolkit in Python, statistics, Excel PivotTables, formulas, data visualization, business intelligence, accounting, and financial data management.</p>
+            <div class="tags"><span>Python</span><span>Excel</span><span>Business Intelligence</span></div>
+            <a href="assets/marian-aguayo-resume.png" target="_blank" rel="noopener noreferrer">View skills <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-category="leadership">
+          <div class="arcana-art world-art">
+            <span class="arcana-number">III</span><span class="corner-star">☼</span>
+            <div class="globe"><i></i><i></i><i></i><span>EN</span><b>ES</b></div>
+            <svg class="flight-path" viewBox="0 0 300 220" aria-hidden="true"><path d="M48 165C100 52 202 43 254 134"/><text x="145" y="73">✦</text></svg>
+            <p>Leadership through service</p>
+          </div>
+          <div class="project-info">
+            <p class="card-label">THE ADVOCATE</p><h3>Teen Court Service</h3>
+            <p>Served as a City of Houston Teen Court juror from 2021–2024, practicing fair judgment, confidentiality, integrity, courtroom leadership, and collaborative communication.</p>
+            <div class="tags"><span>Leadership</span><span>Communication</span><span>Bilingual</span></div>
+            <a href="assets/marian-aguayo-resume.png" target="_blank" rel="noopener noreferrer">View service <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="systems section" id="systems" aria-labelledby="systems-title">
+      <div class="section-heading reveal">
+        <div><p class="kicker">II · MY INFORMATION SYSTEM</p><h2 id="systems-title">How I create value.</h2></div>
+        <p>My Help Desk experience has taught me that good systems begin with listening, clear thinking, and reliable support.</p>
+      </div>
+      <div class="system-flow reveal">
+        <article><span>01</span><i>◎</i><h3>Listen</h3><p>Understand the user, symptoms, context, and urgency.</p></article>
+        <b>→</b><article><span>02</span><i>⌘</i><h3>Diagnose</h3><p>Trace account, software, hardware, network, or AV issues.</p></article>
+        <b>→</b><article><span>03</span><i>⌁</i><h3>Resolve</h3><p>Apply a clear solution and communicate each next step.</p></article>
+        <b>→</b><article><span>04</span><i>◇</i><h3>Document</h3><p>Track tickets, protect continuity, and improve support.</p></article>
+      </div>
+      <div class="skill-ledger reveal">
+        <div><small>TECHNICAL</small><p>Python · Cybersecurity Fundamentals · Excel · PivotTables · Formulas · Data Visualization · MS Office</p></div>
+        <div><small>CREATIVE & BUSINESS</small><p>Adobe Photoshop Certified · Adobe Illustrator Certified · Business Intelligence · Financial Data · International Business</p></div>
+        <div><small>PEOPLE SKILLS</small><p>Problem Solving · Critical Thinking · Attention to Detail · Adaptability · Teamwork · English & Spanish</p></div>
+      </div>
+    </section>
+
+    <section class="credentials section" id="credentials" aria-labelledby="credentials-title">
+      <div class="section-heading reveal">
+        <div><p class="kicker">III · CREDENTIAL CONSTELLATION</p><h2 id="credentials-title">Proof of progress.</h2></div>
+        <p>Training badges that strengthen my foundation in cloud technology, networking, and operations.</p>
+      </div>
+      <div class="credential-grid">
+        <article class="credential-card reveal">
+          <div class="credential-seal"><span>AWS</span><i>☁</i><small>EDUCATE</small></div>
+          <p class="credential-number">CREDENTIAL · 01</p>
+          <h3>Introduction to<br>Cloud 101</h3>
+          <p>Foundational cloud concepts, services, terminology, and the role cloud technology plays in modern organizations.</p>
+          <div class="credential-meta"><span>Amazon Web Services Training and Certification</span><time datetime="2026-04-26">Issued Apr 26, 2026</time><b>No expiration</b></div>
+        </article>
+        <article class="credential-card reveal">
+          <div class="credential-seal"><span>AWS</span><i>⌘</i><small>EDUCATE</small></div>
+          <p class="credential-number">CREDENTIAL · 02</p>
+          <h3>Getting Started<br>with Networking</h3>
+          <p>Core networking concepts and how connected cloud resources communicate securely and reliably.</p>
+          <div class="credential-meta"><span>Amazon Web Services Training and Certification</span><time datetime="2026-04-26">Issued Apr 26, 2026</time><b>No expiration</b></div>
+        </article>
+        <article class="credential-card reveal">
+          <div class="credential-seal"><span>AWS</span><i>◇</i><small>EDUCATE</small></div>
+          <p class="credential-number">CREDENTIAL · 03</p>
+          <h3>Getting Started<br>with Cloud Ops</h3>
+          <p>An introduction to the operational practices behind monitoring, maintaining, and supporting cloud environments.</p>
+          <div class="credential-meta"><span>Amazon Web Services Training and Certification</span><time datetime="2026-04-26">Issued Apr 26, 2026</time><b>No expiration</b></div>
+        </article>
+      </div>
+      <p class="credential-note reveal">Credential verification is available upon request. Verification details are not shared publicly for privacy.</p>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="passport reveal">
+        <div class="passport-cover"><div class="passport-mark"><img src="assets/mga-sunburst-mark.png" alt="Marian Aguayo sunburst monogram"></div><p>PORTFOLIO</p><h2>MGA</h2><small>WORLD CITIZEN · SYSTEMS THINKER</small></div>
+        <div class="passport-page"><p class="kicker">IV · THE JOURNEY</p><h2 id="about-title">Curious by nature.<br>Global by design.</h2>
+          <p>I’m a first-generation student at Houston Christian University, graduating in 2028 with a major in Information Systems and a minor in International Business. I’m passionate about making technology more secure, accessible, and useful.</p>
+          <p>Alongside my Help Desk role, I’m involved with <strong>Women in CyberSecurity (WiCyS) and TRIO for First-Generation students.</strong> I bring bilingual English-Spanish communication and a global perspective to the way I solve problems.</p>
+          <div class="passport-stamps" aria-hidden="true"><span>HCU<br><small>CLASS 2028</small></span><span>WiCyS<br><small>MEMBER</small></span><span>EN/ES<br><small>BILINGUAL</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner reveal">
+        <p class="kicker">V · OPEN CHANNEL</p>
+        <div class="contact-symbol">☼</div>
+        <h2 id="contact-title">Let’s connect<br><em>the dots.</em></h2>
+        <p>For projects, opportunities, international ideas, or a good conversation about technology and business.</p>
+        <div class="contact-links"><a class="button button-light" href="mailto:mariangaguayo@gmail.com">mariangaguayo@gmail.com <span>↗</span></a><a class="phone-link" href="tel:+12819659208">+1 (281) 965-9208</a></div>
+        <div class="socials"><a href="#">GitHub</a><a href="https://www.linkedin.com/in/marian-guadalupe-aguayo/" target="_blank" rel="noopener noreferrer" aria-label="Visit Marian Guadalupe Aguayo on LinkedIn">LinkedIn</a><a href="assets/marian-aguayo-resume.png" target="_blank" rel="noopener noreferrer">Résumé</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Sol y Sistema · Marian Guadalupe Aguayo</span><span>Information Systems · Global Business · <span id="year"></span></span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
